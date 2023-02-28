@@ -1,0 +1,67 @@
+nav{
+    background-color: #008080;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: 600;
+    height: 3em;
+}
+img{
+    border-radius: 50%;
+}
+#ques-box{
+    margin-top: 10px;
+    background-color: #ebeaea;
+    width: 100%;
+    height: 78vh;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+#ques-box::-webkit-scrollbar{
+    display: none;
+}
+#rightside{
+    border-left: 0.5px solid #868585;
+    padding-right: 6rem;
+    padding-left: 4rem;
+}
+#leftside{
+    padding-right: 0px;
+    padding-right: 15px;
+}
+textarea{
+    margin-top: 10px;
+    width: 100%;
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+hr{
+    border-top: 1px solid black;
+}
+#clicked-ques,#response{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    padding: 5px;
+    background-color: #ebeaea;
+    width: 98%;
+    border-radius: 2%;
+}
+#resolveside{
+    border-left: 0.5px solid #868585;
+    padding-right: 6rem;
+    padding-left: 4rem;
+}
+.r:hover{
+    cursor: pointer;
+}
+a:hover{
+    cursor: pointer;
+}
+#time{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #868585;
+}
